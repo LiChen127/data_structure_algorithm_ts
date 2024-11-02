@@ -1,7 +1,7 @@
 class Stack {
   constructor() {
     this.count = 0;
-    this.items = [];
+    this.items = {};
   }
   push(el) {
     this.items[this.count] = el;
